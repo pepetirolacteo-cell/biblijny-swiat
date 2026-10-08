@@ -944,7 +944,7 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 </div>
 <div class="dentro-card">
 <div class="dentro-card-img">
-<span class="dentro-tag">Str. 308</span>
+<span class="dentro-tag">Str. 318</span>
 <img alt="Paul&#8217;s Journeys &#8212; sample page from Biblijny &#346;wiat 3D" height="1491" loading="lazy" src="https://pepetirolacteo-cell.github.io/biblijny-swiat/img/sample-6.webp" width="1055"/>
 </div>
 <div class="dentro-card-body"><p>Podr&#243;&#380;e Paw&#322;a</p><span>Azja Mniejsza i Grecja &#183; Cz&#281;&#347;&#263; 9</span></div>
