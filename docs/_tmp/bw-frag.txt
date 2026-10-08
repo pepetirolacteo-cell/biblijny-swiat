@@ -874,13 +874,13 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 </div>
 
 <div class="hero-pills">
-<span>&#128214; 330+ stron</span><span class="div"></span>
+<span>&#128214; 350+ stron</span><span class="div"></span>
 <span>&#128506;&#65039; 100+ map i miejsc</span><span class="div"></span>
 <span>&#127963;&#65039; Rekonstrukcje wizualne</span><span class="div"></span>
 <span>&#128242; Eksplorator interaktywny</span><span class="div"></span>
 <span>&#127873; 6 bonus&#243;w</span>
 </div>
-<a class="btn-pulse" href="/checkout"><span>&#128214; CHC&#280; ZOBACZY&#262; BIBLIJNE MIEJSCA W 3D &#8594;</span></a>
+<a class="btn-pulse" href="#comprar"><span>&#128214; CHC&#280; ZOBACZY&#262; BIBLIJNE MIEJSCA W 3D &#8594;</span></a>
 <p class="hero-social" style="margin-top:.75rem">&#11088; Jednorazowa p&#322;atno&#347;&#263; &#183;&#160; <strong>dost&#281;p na zawsze</strong></p>
 <p class="hero-trust">&#128737;&#65039; 15 dni gwarancji &#183; &#128274; Bezpieczna p&#322;atno&#347;&#263; &#183; &#128231; Natychmiastowy dost&#281;p</p>
 </section>
@@ -890,7 +890,7 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 <div class="stats-glow"></div>
 <div class="stats-inner">
 <div class="stats-grid">
-<div class="stat-card"><div class="stat-num">330+</div><div class="stat-lbl">&#128214; stron wizualnych</div></div>
+<div class="stat-card"><div class="stat-num">350+</div><div class="stat-lbl">&#128214; stron wizualnych</div></div>
 <div class="stat-card"><div class="stat-num">100+</div><div class="stat-lbl">&#128506;&#65039; map i miejsc</div></div>
 <div class="stat-card"><div class="stat-num">9</div><div class="stat-lbl">&#128218; cz&#281;&#347;ci Biblii</div></div>
 <div class="stat-card"><div class="stat-num">7</div><div class="stat-lbl">&#127873; tom&#243;w</div></div>
@@ -1011,7 +1011,7 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 </div>
 <p class="sol-highlight">&#128214; Nie zapami&#281;tuj pojedynczych nazw &#8212; po&#322;&#261;cz miejsca, trasy, architektur&#281; i znaczenie.</p>
 <div class="sol-stats">
-<div class="sol-stat"><p>330+</p><p>stron</p></div>
+<div class="sol-stat"><p>350+</p><p>stron</p></div>
 <div class="sol-stat"><p>100+</p><p>map</p></div>
 <div class="sol-stat"><p>9</p><p>cz&#281;&#347;ci</p></div>
 <div class="sol-stat"><p>6</p><p>bonus&#243;w</p></div>
@@ -1119,7 +1119,7 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 </div>
 </div>
 <div class="tomos-metrics">
-<div class="metric"><p>330+</p><p>stron</p></div>
+<div class="metric"><p>350+</p><p>stron</p></div>
 <div class="div-v"></div>
 <div class="metric"><p>100+</p><p>map</p></div>
 <div class="div-v"></div>
@@ -1293,7 +1293,7 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 <div class="price-big">{{price}}</div>
 <div class="price-ahorro">OSZCZ&#280;DZASZ {{savings}}</div>
 <ul class="inc-lista">
-<li><span class="ck">&#10003;</span> 330+ stron wizualnych w PDF</li>
+<li><span class="ck">&#10003;</span> 350+ stron wizualnych w PDF</li>
 <li><span class="ck">&#10003;</span> 100+ map, miejsc i tras</li>
 <li><span class="ck">&#10003;</span> Rekonstrukcje wizualne miast i &#347;wi&#261;ty&#324;</li>
 <li><span class="ck">&#10003;</span> Wszystkie 9 cz&#281;&#347;ci &#8212; od najwcze&#347;niejszych wydarze&#324; biblijnych po podr&#243;&#380;e Paw&#322;a</li>
@@ -1468,8 +1468,8 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 </div>
 </div>
 </div>
-<a class="btn-pulse" href="/checkout"><span>&#128214; CHC&#280; ZOBACZY&#262; BIBLI&#280; W KONTEK&#346;CIE &#8594;</span></a>
-<p class="cta-micro">&#9889; Natychmiastowy dost&#281;p &#183;&#160; <span>330+ stron + 6 tom&#243;w bonusowych + eksplorator interaktywny</span> &#160;&#183; 15 dni gwarancji</p>
+<a class="btn-pulse" href="#comprar"><span>&#128214; CHC&#280; ZOBACZY&#262; BIBLI&#280; W KONTEK&#346;CIE &#8594;</span></a>
+<p class="cta-micro">&#9889; Natychmiastowy dost&#281;p &#183;&#160; <span>350+ stron + 6 tom&#243;w bonusowych + eksplorator interaktywny</span> &#160;&#183; 15 dni gwarancji</p>
 <div class="trust-final">
 <div class="trust-f-item"><span>&#128274;</span><span>100% bezpieczna p&#322;atno&#347;&#263;</span></div>
 <div class="trust-f-item"><span>&#9889;</span><span>Dost&#281;p w kilka minut</span></div>
@@ -1528,7 +1528,7 @@ footer{width:100%;background:#070503;border-top:1px solid rgba(245,197,66,.12);p
 </div>
 <div style="text-align:center;margin-top:32px">
 <p style="color:#CEC2B0;font-size:15px;margin-bottom:16px">Masz jeszcze pytanie? W&#322;a&#347;nie dlatego jest 15-dniowa gwarancja.</p>
-<a class="btn-pulse" href="/checkout" style="width:100%;max-width:470px"><span>&#128214; CHC&#280; DOST&#280;P DO BIBLIJNEGO &#346;WIATA 3D &#8594;</span></a>
+<a class="btn-pulse" href="#comprar" style="width:100%;max-width:470px"><span>&#128214; CHC&#280; DOST&#280;P DO BIBLIJNEGO &#346;WIATA 3D &#8594;</span></a>
 </div>
 </div>
 </section>
