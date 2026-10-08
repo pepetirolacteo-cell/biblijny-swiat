@@ -1793,4 +1793,69 @@ function openFaq(btn){
   updateDots();
 })();
 
+
+
+  (function () {
+    var root = document.documentElement;
+    if (!root || root.getAttribute("data-mb-utm-ready") === "true") return;
+    root.setAttribute("data-mb-utm-ready", "true");
+
+    /* Checkout de la plataforma. Relativo a prop\u00f3sito: se resuelve solo
+       contra el dominio de la tienda. */
+    var checkoutUrl = "/checkout";
+
+    var campaignParamNames = ["utm_source", "utm_campaign", "utm_medium", "utm_content", "utm_term", "utm_id"];
+    var campaignStorageKey = "bw3d_biblical_world_utm";
+
+    function getCampaignParams() {
+      var currentParams = new URLSearchParams(window.location.search);
+      var campaignParams = {};
+      var hasIncomingUtm = campaignParamNames.some(function (paramName) {
+        return currentParams.has(paramName);
+      });
+      if (hasIncomingUtm) {
+        campaignParamNames.forEach(function (paramName) {
+          campaignParams[paramName] = currentParams.has(paramName) ? currentParams.get(paramName) : "";
+        });
+        try {
+          window.sessionStorage.setItem(campaignStorageKey, JSON.stringify(campaignParams));
+        } catch (error) {
+          /* La navegaci\u00f3n contin\u00faa aunque el navegador bloquee sessionStorage. */
+        }
+      } else {
+        try {
+          campaignParams = JSON.parse(window.sessionStorage.getItem(campaignStorageKey) || "{}");
+        } catch (error) {
+          campaignParams = {};
+        }
+      }
+      if (!campaignParams.utm_source) campaignParams.utm_source = "organic";
+      campaignParamNames.forEach(function (paramName) {
+        if (typeof campaignParams[paramName] !== "string") campaignParams[paramName] = "";
+      });
+      return campaignParams;
+    }
+
+    function decorateCheckoutLink(buyLink) {
+      var destination = new URL(checkoutUrl, window.location.origin);
+      var campaignParams = getCampaignParams();
+      campaignParamNames.forEach(function (paramName) {
+        destination.searchParams.set(paramName, campaignParams[paramName]);
+      });
+      buyLink.href = destination.toString();
+    }
+
+    document.querySelectorAll("[data-mb-buy]").forEach(function (buyLink) {
+      decorateCheckoutLink(buyLink);
+      buyLink.addEventListener("click", function () {
+        decorateCheckoutLink(buyLink);
+        if (Array.isArray(window.dataLayer)) {
+          window.dataLayer.push({
+            event: "bw3d_purchase_start",
+            product: "biblical_world_3d_6_bonuses"
+          });
+        }
+      });
+    });
+  }());
 </script>
